@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
 import './App.css';
+import Game from './components/Game.js';
+import Win from './components/Win.js';
+
+
 
 function App() {
+
+  const [view, setView] = useState("game");
+
+  const handleWinClick = () => {
+    setView("win")
+  }
+
+  // RENDER
+  const renderContent = () => {
+    if (view == "game") {
+      return <Game handleWinClick={handleWinClick} />;
+    }
+    else if(view == "win") {
+      return <Win />;
+    }
+  } // rendercontent
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <div id="content">
+        {renderContent()}
+      </div>
     </div>
-  );
+    )
 }
 
 export default App;

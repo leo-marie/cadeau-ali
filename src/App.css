@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300&display=swap');
+
+:root {
+  --color1: #15ff00;
+  --color2: #178a00;
+  --color3: #003803;
+  --color4: #ff0000bb;
+  --color5: #575757;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  font-family: 'Exo', sans-serif;
+  background: repeating-radial-gradient(circle at center, var(--color1) 0, var(--color3), var(--color2) 100%);
   min-height: 100vh;
+  color: var(--color4);
+}
+
+#content {
+  height: 100%;
+  width: 100%;
+}
+
+#title {
+  text-align: center;
+  padding-top: 1em;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.description {
+  text-align: center;
+  padding-top: 1em;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#game-content {
+  height: 60%;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2em;
+}
+
+#win-content {
+  height: 60%;
+  width: 60%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#image-billets {
+  margin: 10% auto 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.game-button {
+  text-align: center;
+  font-family: 'Bungee', cursive;
+  font-size: 1em;
+  width: 5vw;
+  height: 5vh;
+/*  font-family: 'Exo', sans-serif; */
+  display: flex;           /* center in div */
+  justify-content: center; /*               */
+  align-content: center;   /*               */
+  flex-direction: column;  /*               */
+  
+/*   margin-left: 5%;
+  margin-right: 5%;    */
+  border: 10px inset var(--color3);
+  border-radius: 5em;
+  color: var(--color3);
+  background-color: var(--color2);
+  box-shadow: 0.6em 0.6em 2em 0.5em var(--color1), 0 0 0.4em 0.4em var(--color1); 
+  transition: color .25s, background-color .3s, box-shadow .4s, font-weight .35s, border .3s;
+  animation-name: cardanimation;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
 }
+
+.game-button:hover {
+  color: var(--color4);
+  border: 12px outset var(--color4);
+  background-color: var(--color1);
+  box-shadow: 0 0 0.4em 0.4em var(--color4); 
+  font-weight: bold;
+}
+
+.game-button:active {
+  color: var(--color3);
+  background-color: var(--color1);
+  box-shadow: 0 0 0.4em 0.4em var(--color4);
+  font-weight: bold;
+  }
+
+    /* The animation code */
+@keyframes cardanimation {
+  0%   {background-color:var(--color1);}
+  10%  {background-color:var(--color2);}
+  20%  {background-color:var(--color1);}
+  70%  {background-color:var(--color2);}
+  75%  {background-color: transparent;}
+  80%  {background-color:var(--color2);}
+  100% {background-color:var(--color1);}
+}
+  
+  .game-button-clicked {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    font-size: 1em;
+    width: 5vw;
+    height: 5vh;
+  /*  font-family: 'Exo', sans-serif; */
+    display: flex;           /* center in div */
+    justify-content: center; /*               */
+    align-content: center;   /*               */
+    flex-direction: column;  /*               */
+    
+  /*   margin-left: 5%;
+    margin-right: 5%;    */
+    border: 10px inset var(--color4);
+    border-radius: 5em;
+    color: var(--color4);
+    background-color: var(--color4);
+    box-shadow: 0.6em 0.6em 2em 0.5em var(--color1), 0 0 0.4em 0.4em var(--color1); 
+    transition: color .25s, background-color .3s, box-shadow .4s, font-weight .35s, border .3s;
+    animation-name: cardanimation;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+  }
