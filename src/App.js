@@ -3,7 +3,7 @@ import './App.css';
 import Game from './components/Game.js';
 import Win from './components/Win.js';
 
-
+let track = new Audio("track.mp3");
 
 function App() {
 
@@ -16,6 +16,7 @@ function App() {
   // RENDER
   const renderContent = () => {
     if (view == "game") {
+      track.play();
       return <Game handleWinClick={handleWinClick} />;
     }
     else if(view == "win") {
@@ -26,7 +27,6 @@ function App() {
 
   return (
     <div>
-      
       <div id="content">
         {renderContent()}
       </div>
