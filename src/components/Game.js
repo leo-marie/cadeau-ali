@@ -33,7 +33,7 @@ const Game = (props) => {
             <Button />
             <Button />
             <Button />
-            <div className="game-button" onClick={props.handleWinClick}>Ici </div>
+            <div className="game-button" onClick={props.handleWinClick}>Ici ?</div>
             <Button />
             <Button />
             <Button />

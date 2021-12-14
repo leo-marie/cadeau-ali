@@ -14,7 +14,7 @@ function App() {
     setView("load");
     setTimeout(() => {
       setView("win")
-    }, 3000);
+    }, 5000);
   }
 
   // RENDER
