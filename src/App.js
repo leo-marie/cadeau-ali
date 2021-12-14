@@ -3,7 +3,7 @@ import './App.css';
 import Game from './components/Game.js';
 import Win from './components/Win.js';
 
-let track = new Audio("track.mp3");
+let track = new Audio("https://raw.githubusercontent.com/leo-marie/cadeau-ali/main/public/samples/track.mp3");
 
 function App() {
 
