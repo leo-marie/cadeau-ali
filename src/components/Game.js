@@ -33,46 +33,7 @@ const Game = (props) => {
             <Button />
             <Button />
             <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
             <div className="game-button" onClick={props.handleWinClick}>Ici </div>
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
-            <Button />
             <Button />
             <Button />
             <Button />

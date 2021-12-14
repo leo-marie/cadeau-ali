@@ -4,8 +4,8 @@
   --color1: #15ff00;
   --color2: #178a00;
   --color3: #003803;
-  --color4: #ff0000bb;
-  --color5: #575757;
+  --color4: #ff4747cc;
+  --color5: #ff000094;
 }
 
 body {
@@ -32,15 +32,16 @@ body {
   padding-top: 1em;
   font-weight: bold;
   font-size: 2em;
+  color: var(--color5);
 }
 
 #game-content {
   height: 60%;
   width: 60%;
-  margin: 0 auto;
+  margin: 1% auto 0 auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.2em;
+  gap: 2em;
 }
 
 #win-content {
@@ -83,16 +84,15 @@ body {
 
 .game-button:hover {
   color: var(--color4);
-  border: 12px outset var(--color4);
+  border: 10px outset var(--color4);
   background-color: var(--color1);
-  box-shadow: 0 0 0.4em 0.4em var(--color4); 
-  font-weight: bold;
+  box-shadow: 0.6em 0.6em 2em 0.5em var(--color4), 0 0 0.4em 0.4em var(--color4); 
 }
 
 .game-button:active {
   color: var(--color3);
   background-color: var(--color1);
-  box-shadow: 0 0 0.4em 0.4em var(--color4);
+  box-shadow: 0.6em 0.6em 2em 0.5em var(--color4), 0 0 0.4em 0.4em var(--color4); 
   font-weight: bold;
   }
 
