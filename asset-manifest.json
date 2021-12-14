@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cadeau-ali/static/css/main.f9b218fb.chunk.css",
-    "main.js": "/cadeau-ali/static/js/main.3b85d795.chunk.js",
-    "main.js.map": "/cadeau-ali/static/js/main.3b85d795.chunk.js.map",
+    "main.js": "/cadeau-ali/static/js/main.03d7deae.chunk.js",
+    "main.js.map": "/cadeau-ali/static/js/main.03d7deae.chunk.js.map",
     "runtime-main.js": "/cadeau-ali/static/js/runtime-main.1b8a4c86.js",
     "runtime-main.js.map": "/cadeau-ali/static/js/runtime-main.1b8a4c86.js.map",
     "static/js/2.b1bcbf22.chunk.js": "/cadeau-ali/static/js/2.b1bcbf22.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.1b8a4c86.js",
     "static/js/2.b1bcbf22.chunk.js",
     "static/css/main.f9b218fb.chunk.css",
-    "static/js/main.3b85d795.chunk.js"
+    "static/js/main.03d7deae.chunk.js"
   ]
 }
