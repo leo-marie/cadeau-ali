@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cadeau-ali/static/css/main.7f66854f.chunk.css",
-    "main.js": "/cadeau-ali/static/js/main.c324778e.chunk.js",
-    "main.js.map": "/cadeau-ali/static/js/main.c324778e.chunk.js.map",
+    "main.css": "/cadeau-ali/static/css/main.f9b218fb.chunk.css",
+    "main.js": "/cadeau-ali/static/js/main.3b85d795.chunk.js",
+    "main.js.map": "/cadeau-ali/static/js/main.3b85d795.chunk.js.map",
     "runtime-main.js": "/cadeau-ali/static/js/runtime-main.1b8a4c86.js",
     "runtime-main.js.map": "/cadeau-ali/static/js/runtime-main.1b8a4c86.js.map",
     "static/js/2.b1bcbf22.chunk.js": "/cadeau-ali/static/js/2.b1bcbf22.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.e9a39bbf.chunk.js": "/cadeau-ali/static/js/3.e9a39bbf.chunk.js",
     "static/js/3.e9a39bbf.chunk.js.map": "/cadeau-ali/static/js/3.e9a39bbf.chunk.js.map",
     "index.html": "/cadeau-ali/index.html",
-    "static/css/main.7f66854f.chunk.css.map": "/cadeau-ali/static/css/main.7f66854f.chunk.css.map",
+    "static/css/main.f9b218fb.chunk.css.map": "/cadeau-ali/static/css/main.f9b218fb.chunk.css.map",
     "static/js/2.b1bcbf22.chunk.js.LICENSE.txt": "/cadeau-ali/static/js/2.b1bcbf22.chunk.js.LICENSE.txt",
     "static/media/billets.58850405.PNG": "/cadeau-ali/static/media/billets.58850405.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.1b8a4c86.js",
     "static/js/2.b1bcbf22.chunk.js",
-    "static/css/main.7f66854f.chunk.css",
-    "static/js/main.c324778e.chunk.js"
+    "static/css/main.f9b218fb.chunk.css",
+    "static/js/main.3b85d795.chunk.js"
   ]
 }
